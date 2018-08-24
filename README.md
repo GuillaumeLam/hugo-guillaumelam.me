@@ -1,6 +1,6 @@
 # CV website for Guillaume Lam
 
-The website is built using the go framework called Hugo. Using hugo allows for the website to be statically compiled allowing github to host it for me charge-free. The Hugo framework allows for the whole website to be changed in the **config.md** file using some html to render the text in the sections desired. 
+The website is built using the go framework called Hugo. Using hugo allows for the website to be statically compiled allowing github to host it for me charge-free. The Hugo framework allows for the whole website to be changed in the *config.toml* file using some html to render the text in the sections desired. 
 
 ## Running the website 
 
