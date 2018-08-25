@@ -1,7 +1,7 @@
 baseURL = "http://guillaumelam.me/"
 languageCode = "en-us"
 title = "Guillaume Lam Portfolio"
-theme = "hugo-icon"
+theme = "gl-theme"
 
 # Metadata
 [params]
