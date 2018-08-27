@@ -35,10 +35,10 @@ theme = "gl-theme"
 		img = "images/img_3.jpg"
 	[[params.workExperience.images.list]]
 		img = "images/img_2.jpg"
-	[[params.workExperience.images.list]]
-		img = "images/img_1.jpg"
-	[[params.workExperience.images.list]]
-		img = "images/img_4.jpg"
+#	[[params.workExperience.images.list]]
+#		img = "images/img_1.jpg"
+#	[[params.workExperience.images.list]]
+#		img = "images/img_4.jpg"
 
 	[[params.workExperience.item]]
 		weight = 1
@@ -73,6 +73,7 @@ theme = "gl-theme"
 		icon = "icon-present"
 		title = "Web Development"
 		description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+		link = "https://www.google.ca/"
 
 	[[params.projects.item]]
 		icon = "icon-eye"
