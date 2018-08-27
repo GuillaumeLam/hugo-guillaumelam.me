@@ -6,20 +6,20 @@ theme = "gl-theme"
 # Metadata
 [params]
 	author = "Guillaume Lam"
-	description = "Personal website"
+	description = "Portfolio"
 
 # Hero section (from here on is for icon theme)
 [params.hero]
 	img = "images/hero_bg.jpg"
 	title = "Guillaume Lam: software enthusiast"
 	# description = "Lovingly hand-crafted by the fine folks at [FreeHTML5.co](http://freehtml5.co/)"
-	description = "Want the cv? Download [here](/cv/guillaumelam-cv.pdf)"
+	description = "Looking for the cv? Download it [here](/cv/guillaumelam-cv.pdf)"
 
 # Navigation section
 [params.nav]
 	workExperience = "Work Experience"
 	projects = "Personal projects"
-	team = "My Team"
+	aboutMe = "About Me"
 	contact = "Get In Touch"
 	# Include logo instead if HOME:
 	# logo = "path/to/logo"
@@ -99,13 +99,13 @@ theme = "gl-theme"
 		title = "Customer Support"
 		description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
-# Team section
-[params.team]
+# About Me section
+[params.aboutMe]
 	enable = true
-	title = "Meet The Team"
+	title = "About Me"
 	description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
-	[[params.team.item]]
+	[[params.aboutMe.item]]
 	    name = "Jean Doe"
 	    position = "Chief legend"
 	    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
@@ -116,7 +116,7 @@ theme = "gl-theme"
 	    github = "#"
 	    linkedin = "#"
 
-	[[params.team.item]]
+	[[params.aboutMe.item]]
 	    name = "Alice Doe"
 	    position = "Chief overlord"
 	    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
@@ -127,7 +127,7 @@ theme = "gl-theme"
 	    github = "#"
 	    linkedin = "#"
 
-	[[params.team.item]]
+	[[params.aboutMe.item]]
 	    name = "John Doe"
 	    position = "Chief haranguer"
 	    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
@@ -138,7 +138,7 @@ theme = "gl-theme"
 	    github = "#"
 	    linkedin = "#"
 
-#	[[params.team.item]]
+#	[[params.aboutMe.item]]
 #	    name = "Jason Doe"
 #	    position = "Chief haranguer"
 #	    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
@@ -196,7 +196,7 @@ theme = "gl-theme"
 [params.contact]
 	enable = true
 	title = "Get In Touch"
-	message = "Need to send me a message? Use the section below to do so and I'll respond as soon as possible!"
+	message = "Need to send me an email? Use the section below to do so and I'll respond as soon as possible!"
 
 # Footer section
 # Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.

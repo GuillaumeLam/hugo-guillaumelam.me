@@ -13,8 +13,8 @@
 	<a href="#" data-nav-section="projects">{{ with .Site.Params.nav.projects }}{{ . | markdownify }}{{ end }}</a>
 	{{ end }}
 
-	{{ if .Site.Params.team.enable }}
-	<a href="#" data-nav-section="team">{{ with .Site.Params.nav.team }}{{ . | markdownify }}{{ end }}</a>
+	{{ if .Site.Params.aboutMe.enable }}
+	<a href="#" data-nav-section="aboutMe">{{ with .Site.Params.nav.aboutMe }}{{ . | markdownify }}{{ end }}</a>
 	{{ end }}
 
 	{{ if .Site.Params.contact.enable }}
