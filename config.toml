@@ -17,14 +17,14 @@ theme = "gl-theme"
 
 # Navigation section
 [params.nav]
-	team = "My Team"
 	workExperience = "Work Experience"
-	services = "Services"
+	projects = "Personal projects"
+	team = "My Team"
 	contact = "Get In Touch"
 	# Include logo instead if HOME:
 	# logo = "path/to/logo"
 
-# workExperience section
+# Work Experience section
 [params.workExperience]
 	enable = true
 
@@ -61,40 +61,40 @@ theme = "gl-theme"
 		subtitle = "Magnam iste obcaecati illo laboriosam amet. Dignissimos sed quis voluptatum corporis adipisci amet."
 		description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore illum expedita placeat debitis, dignissimos obcaecati et modi. Possimus id dicta consequuntur veritatis, reiciendis at expedita voluptate sint distinctio eligendi!</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
-# Services section
-[params.services]
+# Projects section
+[params.projects]
 	enable = true
 	video = true
 	vidlink = "https://vimeo.com/channels/staffpicks/93951774"
-	title = "Our Services"
+	title = "Personal Projects"
 	description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
-	[[params.services.item]]
+	[[params.projects.item]]
 		icon = "icon-present"
 		title = "Web Development"
 		description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
-	[[params.services.item]]
+	[[params.projects.item]]
 		icon = "icon-eye"
 		title = "Retina Ready"
 		description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
-	[[params.services.item]]
+	[[params.projects.item]]
 		icon = "icon-paper-plane"
 		title = "Light Speed"
 		description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
-	[[params.services.item]]
+	[[params.projects.item]]
 		icon = "icon-pencil"
 		title = "Copyrighting"
 		description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
-	[[params.services.item]]
+	[[params.projects.item]]
 		icon = "icon-rocket"
 		title = "Load Fast"
 		description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
-	[[params.services.item]]
+	[[params.projects.item]]
 		icon = "icon-support"
 		title = "Customer Support"
 		description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."

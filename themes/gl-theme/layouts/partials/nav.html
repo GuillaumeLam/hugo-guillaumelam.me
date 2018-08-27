@@ -9,8 +9,8 @@
 	<a href="#" data-nav-section="workExperience">{{ with .Site.Params.nav.workExperience }}{{ . | markdownify }}{{ end }}</a>
 	{{ end }}
 
-	{{ if .Site.Params.services.enable }}
-	<a href="#" data-nav-section="services">{{ with .Site.Params.nav.services }}{{ . | markdownify }}{{ end }}</a>
+	{{ if .Site.Params.projects.enable }}
+	<a href="#" data-nav-section="projects">{{ with .Site.Params.nav.projects }}{{ . | markdownify }}{{ end }}</a>
 	{{ end }}
 
 	{{ if .Site.Params.team.enable }}
