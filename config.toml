@@ -18,43 +18,43 @@ theme = "gl-theme"
 # Navigation section
 [params.nav]
 	team = "My Team"
-	mission = "Our Mission"
+	workExperience = "Work Experience"
 	services = "Services"
 	contact = "Get In Touch"
 	# Include logo instead if HOME:
 	# logo = "path/to/logo"
 
-# Mission section
-[params.mission]
+# workExperience section
+[params.workExperience]
 	enable = true
 
-	[params.mission.images]
+	[params.workExperience.images]
 		enable = true
 
-	[[params.mission.images.list]]
+	[[params.workExperience.images.list]]
 		img = "images/img_3.jpg"
-	[[params.mission.images.list]]
+	[[params.workExperience.images.list]]
 		img = "images/img_2.jpg"
-	[[params.mission.images.list]]
+	[[params.workExperience.images.list]]
 		img = "images/img_1.jpg"
-	[[params.mission.images.list]]
+	[[params.workExperience.images.list]]
 		img = "images/img_4.jpg"
 
-	[[params.mission.item]]
+	[[params.workExperience.item]]
 		weight = 1
 		name = "marketing"
 		title = "Marketing"
 		subtitle = "Hello me! Does this work? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptate laborum sapiente officiis molestiaea."
 		description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquid aperiam eveniet officia molestiae temporibus beatae dolores dignissimos aspernatur eius doloremque ad, eaque pariatur, repellendus illum, nostrum velit necessitatibus molestias.</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
-	[[params.mission.item]]
+	[[params.workExperience.item]]
 		weight = 2
 		name = "analysis"
 		title = "Resources"
 		subtitle = "Quam quasi illum expedita dicta nemo fugit reprehenderit similique! Corporis praesentium magnam sequi."
 		description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla explicabo, molestiae eaque fugiat dolores est esse, doloremque placeat assumenda corrupti officia dolorum. Sunt saepe ut, explicabo consectetur, nostrum illo est.</p><ul class='checked'><li>Free HTML5 Templates</li><li>Free Bootstrap Templates</li><li>Free HTML5 Bootstrap Templates</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
-	[[params.mission.item]]
+	[[params.workExperience.item]]
 		weight = 3
 		name = "strategy"
 		title = "Strategy"
