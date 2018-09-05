@@ -11,7 +11,7 @@ theme = "gl-theme"
 # Hero section (from here on is for icon theme)
 [params.hero]
 	img = "images/hero_bg.jpg"
-	title = "Guillaume Lam: software enthusiast"
+	title = "Guillaume Lam: <br>Software developer"
 	# description = "Lovingly hand-crafted by the fine folks at [FreeHTML5.co](http://freehtml5.co/)"
 	description = "Looking for the cv? Download it [here](/cv/guillaumelam-cv.pdf)"
 
@@ -116,38 +116,6 @@ theme = "gl-theme"
 	    instagram = "#"
 	    github = "#"
 	    linkedin = "#"
-
-	[[params.aboutMe.item]]
-	    name = "Alice Doe"
-	    position = "Chief overlord"
-	    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-	    img = "images/person2.jpg"
-	    facebook = "#"
-	    twitter = "#"
-	    instagram = "#"
-	    github = "#"
-	    linkedin = "#"
-
-	[[params.aboutMe.item]]
-	    name = "John Doe"
-	    position = "Chief haranguer"
-	    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-	    img = "images/person3.jpg"
-	    facebook = "#"
-	    twitter = "#"
-	    instagram = "#"
-	    github = "#"
-	    linkedin = "#"
-
-#	[[params.aboutMe.item]]
-#	    name = "Jason Doe"
-#	    position = "Chief haranguer"
-#	    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-#	    img = "images/person3.jpg"
-#	    facebook = "#"
-#	    twitter = "#"
-#	    instagram = "#"
-#	    github = "#"
 
 # Work section
 [params.work]
