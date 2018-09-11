@@ -32,9 +32,9 @@ theme = "gl-theme"
 		enable = true
 
 	[[params.workExperience.images.list]]
-		img = "images/img_3.jpg"
+		img = "/images/jive-logo-small.jpg"
 	[[params.workExperience.images.list]]
-		img = "images/img_2.jpg"
+		img = "/images/ericsson-logo.jpg"
 #	[[params.workExperience.images.list]]
 #		img = "images/img_1.jpg"
 #	[[params.workExperience.images.list]]
@@ -42,80 +42,96 @@ theme = "gl-theme"
 
 	[[params.workExperience.item]]
 		weight = 1
-		name = "marketing"
-		title = "Marketing"
-		subtitle = "Hello me! Does this work? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptate laborum sapiente officiis molestiaea."
-		description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquid aperiam eveniet officia molestiae temporibus beatae dolores dignissimos aspernatur eius doloremque ad, eaque pariatur, repellendus illum, nostrum velit necessitatibus molestias.</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+		name = "jive"
+		title = "Jive Comm."
+		subtitle = "Jive Communications <br> May 2018 - August 2018 <br> Software Developer Intern <br>at Montreal QC"
+		description = """<p>- Ported AGI (call routing tool) from virtual machines to
+                    containers. AGI application was coded in Java​ and the tool used
+                    for containerization was Docker​ and Kubernetes​.
+                    <br>- Developed the new voicemail transcription feature. The
+                    application was coded in Go​, used Google's Speec​h as the
+                    speech-to-text application, containerized using Docker​, and Kafka
+                    Apache ​as temporary storage for messages.
+                    <br>- Developed a tool to create load tests for the voicemail
+                    transcription. This tool was made using Go​, Bash​ and Docker​.
+                    <br>- Modified the deployment tool of the application which routes
+                    calls of the product. The application used to be running on VM,
+                    but is now running using Docker​. Tool used Groovy​ to automate
+                    the process.</p>"""
 
 	[[params.workExperience.item]]
 		weight = 2
-		name = "analysis"
-		title = "Resources"
-		subtitle = "Quam quasi illum expedita dicta nemo fugit reprehenderit similique! Corporis praesentium magnam sequi."
-		description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla explicabo, molestiae eaque fugiat dolores est esse, doloremque placeat assumenda corrupti officia dolorum. Sunt saepe ut, explicabo consectetur, nostrum illo est.</p><ul class='checked'><li>Free HTML5 Templates</li><li>Free Bootstrap Templates</li><li>Free HTML5 Bootstrap Templates</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+		name = "ericsson"
+		title = "Ericsson"
+		subtitle = "Ericsson <br> May 2017 - December 2017 <br> Software Developer Intern <br>at Montreal QC"
+		description = """<p>-Developed mobile interface and frontend for an Internet of
+                    Things (IoT) platform which monitors home and neighbourhood
+                    security. Worked with Ionic​ to facilitate cross-platform
+                    development.
+                    <br> -Improved overall architecture of application using Flask​ and
+                    MongoDB​.
+                    <br> -Deployed machine learning in facial recognition to detect
+                    potential dangers of break-ins using OpenCV​ and Tensorflow​.</p>"""
 
-	[[params.workExperience.item]]
-		weight = 3
-		name = "strategy"
-		title = "Strategy"
-		subtitle = "Magnam iste obcaecati illo laboriosam amet. Dignissimos sed quis voluptatum corporis adipisci amet."
-		description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore illum expedita placeat debitis, dignissimos obcaecati et modi. Possimus id dicta consequuntur veritatis, reiciendis at expedita voluptate sint distinctio eligendi!</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+#    [[params.workExperience.item]]
+#            weight = 2
+#            name = "ericsson"
+#            title = "Ericsson"
+#            subtitle = "Quam quasi illum expedita dicta nemo fugit reprehenderit similique! Corporis praesentium magnam sequi."
+#            description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla explicabo, molestiae eaque fugiat dolores est esse, doloremque placeat assumenda corrupti officia dolorum. Sunt saepe ut, explicabo consectetur, nostrum illo est.</p><ul class='checked'><li>Free HTML5 Templates</li><li>Free Bootstrap Templates</li><li>Free HTML5 Bootstrap Templates</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
 # Projects section
 [params.projects]
 	enable = true
-	video = true
+	video = false
 	vidlink = "https://vimeo.com/channels/staffpicks/93951774"
 	title = "Personal Projects"
-	description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+	description = """This section is dedicated to some projects, personal or even hackathon projects, which I want to
+                highlight. To check out the demos or repositories, simply click the project! Some projects will not
+                redirect to an other link as they are being polished!"""
 
 	[[params.projects.item]]
-		icon = "icon-present"
-		title = "Web Development"
-		description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-		link = "https://www.google.ca/"
+		icon = "icon-puzzle-piece"
+		title = "Ai Tetris Player"
+		description = """-Built a Tetris player in Python and Javascript using flask which hosts the player.
+                    <br>-Ai to play the game was made using the open-source Python library, Tensorflow."""
+
+#	[[params.projects.item]]
+#		icon = "icon-present" -> find icons at: https://fontawesome.com/v3.2.1/icons/
+#		title = "Web Development"
+#		description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+#		link = "https://www.google.ca/"
 
 	[[params.projects.item]]
-		icon = "icon-eye"
-		title = "Retina Ready"
-		description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+		icon = "icon-cloud"
+		title = "Accident Predictor"
+		description = """-Team lead on developing project which would anticipate accident rates in Montreal.
+                    <br>-Application helps predict accident probability based on time and weather conditions on
+                    roads."""
 
 	[[params.projects.item]]
-		icon = "icon-paper-plane"
-		title = "Light Speed"
-		description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
-	[[params.projects.item]]
-		icon = "icon-pencil"
-		title = "Copyrighting"
-		description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
-	[[params.projects.item]]
-		icon = "icon-rocket"
-		title = "Load Fast"
-		description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-
-	[[params.projects.item]]
-		icon = "icon-support"
-		title = "Customer Support"
-		description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+		icon = "icon-picture"
+		title = "Face Descriptor"
+		description = """-Worked on an application which could create a description of a newly seen face.
+                    <br>-Description of new face based on similarity to trained faces using Microsoft’s Face API."""
 
 # About Me section
 [params.aboutMe]
 	enable = true
 	title = "About Me"
-	description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+	description = """In the following section, you can find out more about me. Along with my motto, you can find various
+                information such as my school path in the link below."""
 
 	[[params.aboutMe.item]]
-	    name = "Jean Doe"
-	    position = "Chief legend"
-	    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-	    img = "images/person1.jpg"
-	    facebook = "#"
-	    twitter = "#"
-	    instagram = "#"
-	    github = "#"
-	    linkedin = "#"
+	    name = "Guillaume Lam"
+	    position = "McGill Software Engineering Student"
+	    description = "I always aim to do the best I can while putting the maximum of effort in the task at hand. I also always like a difficult challenge."
+	    #img = "/images/person1.jpg"
+	    img = "/images/guillaume-circle.jpg"
+	    github = "https://github.com/GuillaumeLam"
+	    linkedin = "https://www.linkedin.com/in/guillaumelam/"
+        facebook = "https://www.facebook.com/guillaume.lam.3"
+    #   instagram = "https://www.instagram.com/shotsfiredbygui/"
 
 # Work section
 [params.work]
@@ -175,5 +191,4 @@ theme = "gl-theme"
 	github = "https://github.com/GuillaumeLam"
 	linkedin = "https://www.linkedin.com/in/guillaumelam/"
 #	facebook = "https://www.facebook.com/guillaume.lam.3"
-#	twitter = "#"
-#	instagram = "#"
+#	instagram = "https://www.instagram.com/shotsfiredbygui/"
