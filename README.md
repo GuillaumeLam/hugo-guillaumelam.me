@@ -24,4 +24,4 @@ This version of remote deployment will push the website to a github repo which h
 ./deploy.sh
 ```
 
-The new website will now be present at the address **guillaumelam.me**.
+The new website will now be present at the address **guillaumelam.com**.

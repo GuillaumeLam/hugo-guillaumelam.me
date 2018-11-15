@@ -1,4 +1,4 @@
-baseURL = "http://guillaumelam.me/"
+baseURL = "http://guillaumelam.com/"
 languageCode = "en-us"
 title = "Guillaume Lam Portfolio"
 theme = "gl-theme"
@@ -89,18 +89,27 @@ theme = "gl-theme"
 	description = """This section is dedicated to some projects, personal or even hackathon projects, which I want to
                 highlight. To check out the demos or repositories, simply click the project! Some projects will not
                 redirect to an other link as they are being polished!"""
+# TEMPLATE
+#	[[params.projects.item]]
+#		icon = "icon-present" -> find icons at: https://fontawesome.com/v3.2.1/icons/
+#		title = "Web Development"
+#		description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+#		link = "https://www.google.ca/"
+#
+# for icons: https://getbootstrap.com/docs/3.3/components/ https://fontawesome.com/v3.2.1/ https://fontawesome.com/icons?d=gallery
+
+	[[params.projects.item]]
+		icon = "glyphicon glyphicon-facetime-video"
+		title = "GIF Sentiment Analysis"
+		description = """-Currently working with team on project to recognise emotion in a GIF (small video).
+                    <br>-Using the MIT GIFGIF media lab data as dataset for project and relies on deep learning."""
+		link = "https://github.com/McGillAISociety/gif-sentiment-analysis"
 
 	[[params.projects.item]]
 		icon = "icon-puzzle-piece"
 		title = "Ai Tetris Player"
 		description = """-Built a Tetris player in Python and Javascript using flask which hosts the player.
                     <br>-Ai to play the game was made using the open-source Python library, Tensorflow."""
-
-#	[[params.projects.item]]
-#		icon = "icon-present" -> find icons at: https://fontawesome.com/v3.2.1/icons/
-#		title = "Web Development"
-#		description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-#		link = "https://www.google.ca/"
 
 	[[params.projects.item]]
 		icon = "icon-cloud"
@@ -190,5 +199,5 @@ theme = "gl-theme"
 	note = "<p><small>&copy; 2016 Free HTML5 Template. All Rights Reserved. <br> Designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a><br>Want to learn about how this was made?<br>Checkout <a href='https://gohugo.io' target='_blank'>Hugo</a> and the theme by <a href='https://themes.gohugo.io/hugo-icon/' target='_blank'>SteveLane</a></small></p>"
 	github = "https://github.com/GuillaumeLam"
 	linkedin = "https://www.linkedin.com/in/guillaumelam/"
-#	facebook = "https://www.facebook.com/guillaume.lam.3"
-#	instagram = "https://www.instagram.com/shotsfiredbygui/"
+	facebook = "https://www.facebook.com/guillaume.lam.3"
+	instagram = "https://www.instagram.com/shotsfiredbygui/"
