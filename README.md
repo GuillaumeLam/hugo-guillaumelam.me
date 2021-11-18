@@ -4,7 +4,7 @@ The website is built using the go framework called Hugo. Using hugo allows for t
 
 ## Running the website 
 
-There are two ways to run the website locally and remotely. 
+There are two ways to run the website: locally and remotely. 
 
 ### Locally
 
